@@ -86,6 +86,7 @@ header {
     background-image: url('truckBG.jpg');
     background-size: 100%; /* Adjust as needed */
     background-repeat: no-repeat; /* Adjust as needed */
+  
     /* Additional styling properties can be added here */
   }
   #home p{
