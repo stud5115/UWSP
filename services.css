@@ -1,0 +1,204 @@
+body{
+    height: 680px;
+    background-image: url('https://scontent.fpry2-1.fna.fbcdn.net/v/t31.18172-8/11045507_983129901699658_5931230592021076203_o.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_ohc=rA88_KVHHGcAX-uzxwo&_nc_ht=scontent.fpry2-1.fna&oh=00_AfCH78ZLy-5MRtdBx6U8qPqmnnWJPBuHDsm3Xyz6YjN14g&oe=652C12AC');
+    background-position: fixed;
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position-y: 900px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.fs{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #fff;
+}
+.services {
+    align-content: center;
+    padding: 20px;
+      display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.services h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.service {
+    background-color: dimgray;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.service h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Style the Get a Quote button */
+.quote {
+    text-align: center;
+    margin-top: 20px;
+}
+.quote a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background-color: #1957b3;
+    color: #fff;
+    border: solid #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Style the company info section */
+.company-info {
+    color: #fff;
+    text-align: center;
+    background-color: dimgray;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border:solid #333;
+    max-height: fit-content;
+    padding-bottom: 30px;
+}
+.company-info img{
+    width:15rem;
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+/* Style the blog section */
+.blog {
+    padding: 20px;
+    background-color: dimgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.blog h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+}
+#contact{
+    text-decoration: white;
+    text-align: center;
+    background-color: #747474;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  
+}
+#contact p{
+font-size: larger;
+}
+a {
+color: #fff;
+}
+
+
+.button-container {
+display: flex;
+}
+.button-container img{
+align-items: center;
+}
+
+.glass-btn {
+border-radius: 7px;
+margin: 0 1em;
+cursor: pointer;
+transition: all 0.3s;
+}
+
+
+.glass-btn:hover {
+transform: translateY(-7px);
+box-shadow: 0px 20px 35px -16px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8rem;
+}
+
+/* Add hover effect to links */
+
+button:hover{
+    background-color:black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
