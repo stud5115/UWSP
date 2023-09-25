@@ -170,6 +170,7 @@ align-items: center;
 }
 
 .glass-btn {
+margin-inline: auto;
 border-radius: 7px;
 margin: 0 1em;
 cursor: pointer;
